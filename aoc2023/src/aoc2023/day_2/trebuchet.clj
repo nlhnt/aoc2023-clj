@@ -69,7 +69,21 @@ full-digits-map
 
 (def digits-regex #"\d|zero|one|two|three|four|five|six|seven|eight|nine")
 
+
 (println digits-regex)
+
+(def reverse-digits-regex-string
+  (reduce (fn [current-str spelled-digit]
+    (apply str (concat current-str "|" spelled-digit))) "" (keys reverse-digits-map)))
+
+;; (defn union-re-patterns [& patterns]
+;;   (re-pattern (apply str (interpose "|" (map #(str "(?:" % ")") patterns)))))
+
+;; (union-re-patterns )
+
+(def reverse-digits-regex (re-pattern (apply str (concat (str #"\d") reverse-digits-regex-string))))
+reverse-digits-regex
+
 
 (defn get-first-and-last-digits-spelled-too [input-str]
   (let [numbers (re-seq #"\d|zero|one|two|three|four|five|six|seven|eight|nine" input-str)]

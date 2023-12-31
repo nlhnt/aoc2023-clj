@@ -496,3 +496,242 @@ clj꞉aoc2023.day-2.trebuchet꞉> 
  "nine" "9",
  "four" "4"}
 clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/reverse-digits-regex
+clj꞉aoc2023.day-2.trebuchet꞉> 
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling def at (src/aoc2023/day_2/trebuchet.clj:75:1).
+; Too many arguments to def
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ArityException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Wrong number of args (2) passed to: aoc2023.day-2.trebuchet/fn--8605
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ArityException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Wrong number of args (1) passed to: clojure.core/reduce
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/reverse-digits-regex
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(\|
+ "orez"
+ "0"
+ \|
+ "neves"
+ "7"
+ \|
+ "owt"
+ "2"
+ \|
+ "xis"
+ "6"
+ \|
+ "ruof"
+ "4"
+ \|
+ "thgie"
+ "8"
+ \|
+ "evif"
+ "5"
+ \|
+ "enin"
+ "9"
+ \|
+ "eerht"
+ "3"
+ \|
+ "eno"
+ "1")
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/reverse-digits-regex
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(\|
+ \o
+ \r
+ \e
+ \z
+ \|
+ \n
+ \e
+ \v
+ \e
+ \s
+ \|
+ \o
+ \w
+ \t
+ \|
+ \x
+ \i
+ \s
+ \|
+ \r
+ \u
+ \o
+ \f
+ \|
+ \t
+ \h
+ \g
+ \i
+ \e
+ \|
+ \e
+ \v
+ \i
+ \f
+ \|
+ \e
+ \n
+ \i
+ \n
+ \|
+ \e
+ \e
+ \r
+ \h
+ \t
+ \|
+ \e
+ \n
+ \o)
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/reverse-digits-regex
+clj꞉aoc2023.day-2.trebuchet꞉> 
+"|orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error reading source at (REPL:79:12).
+; Unsupported escape character: \d
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(\\
+ \d
+ \|
+ \o
+ \r
+ \e
+ \z
+ \|
+ \n
+ \e
+ \v
+ \e
+ \s
+ \|
+ \o
+ \w
+ \t
+ \|
+ \x
+ \i
+ \s
+ \|
+ \r
+ \u
+ \o
+ \f
+ \|
+ \t
+ \h
+ \g
+ \i
+ \e
+ \|
+ \e
+ \v
+ \i
+ \f
+ \|
+ \e
+ \n
+ \i
+ \n
+ \|
+ \e
+ \e
+ \r
+ \h
+ \t
+ \|
+ \e
+ ...)
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(\\
+ \d
+ \|
+ \|
+ \o
+ \r
+ \e
+ \z
+ \|
+ \n
+ \e
+ \v
+ \e
+ \s
+ \|
+ \o
+ \w
+ \t
+ \|
+ \x
+ \i
+ \s
+ \|
+ \r
+ \u
+ \o
+ \f
+ \|
+ \t
+ \h
+ \g
+ \i
+ \e
+ \|
+ \e
+ \v
+ \i
+ \f
+ \|
+ \e
+ \n
+ \i
+ \n
+ \|
+ \e
+ \e
+ \r
+ \h
+ \t
+ \|
+ ...)
+clj꞉aoc2023.day-2.trebuchet꞉> 
+"\\d||orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day-2.trebuchet/eval8624 (form-init5491758528458447645.clj:79).
+; Don't know how to create ISeq from: java.util.regex.Pattern
+clj꞉aoc2023.day-2.trebuchet꞉> 
+"\\d||orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+"\\d||orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d||orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/reverse-digits-regex
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:84:50).
+; Unable to resolve symbol: reverse-digits-regex-string in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:84:50).
+; Unable to resolve symbol: reverse-digits-regex-string in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|orez|neves|owt|xis|ruof|thgie|evif|enin|eerht|eno"
+clj꞉aoc2023.day-2.trebuchet꞉> 

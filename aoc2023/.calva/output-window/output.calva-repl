@@ -1,0 +1,498 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /home/mborawski/Dokumenty/my_projects/clojure_pg/aoc2023-clj/aoc2023 ; lein update-in :dependencies conj '[nrepl,"1.0.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless ; popd
+; Using host:port 127.0.0.1:42619 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉aoc2023.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉aoc2023.core꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:64:13).
+; Unable to resolve symbol: all-two-digit-numbers in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Jack-in done.
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:64:13).
+; Unable to resolve symbol: all-two-digit-numbers in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:62:47).
+; Unable to resolve symbol: concatenate-numbers in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Don't know how to create ISeq from: clojure.lang.Var$Unbound
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Don't know how to create ISeq from: clojure.lang.Var$Unbound
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/get-first-digit
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Don't know how to create ISeq from: clojure.lang.Var$Unbound
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error reading source at (REPL:24:23).
+; Unsupported escape character: \d
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; java.util.regex.Pattern cannot be cast to clojure.lang.IFn
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-regex
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:26:1).
+; Unable to resolve symbol: diits-regex in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|zero|one|two|three|four|five|six|seven|eight|nine"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#"\d|zero|one|two|three|four|five|six|seven|eight|nine"
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-map
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{"zero" "0"}
+clj꞉aoc2023.day-2.trebuchet꞉> 
+"0"
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[zero 0]
+(nil)
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[zero 0]
+(nil)
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[zero 0]
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:37:1).
+; Unable to resolve symbol: el in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[zero 0]
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+1
+2
+3
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-map
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[six 6]
+[three 3]
+[two 2]
+[seven 7]
+[zero 0]
+[five 5]
+[eight 8]
+[one 1]
+[nine 9]
+[four 4]
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[six 6]
+[three 3]
+[two 2]
+[seven 7]
+[zero 0]
+[five 5]
+[eight 8]
+[one 1]
+[nine 9]
+[four 4]
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[six 6]
+[three 3]
+[two 2]
+[seven 7]
+[zero 0]
+[five 5]
+[eight 8]
+[one 1]
+[nine 9]
+[four 4]
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+[six 6]
+[three 3]
+[two 2]
+[seven 7]
+[zero 0]
+[five 5]
+[eight 8]
+[one 1]
+[nine 9]
+[four 4]
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+:key
+; Error printing return value (NullPointerException) at clojure.core/map$fn (core.clj:2772).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+;; = doseq - Example 1 = 
+
+;; Multiplies every x by every y.
+
+(doseq [x [-1 0 1]
+        y [1  2 3]] 
+  (prn (* x y)))
+-1 ; x -1 y 1
+-2 ; x -1 y 2
+-3 ; x -1 y 3
+0  ; x 0  y 1
+0  ; x 0  y 2
+0  ; x 0  y 3
+1  ; x 1  y 1
+2  ; x 1  y 2
+3  ; x 1  y 3
+nil
+
+;; Notice that y is iterated over for every x. x could be seen as the 'outer' loop
+;; See also:
+clojure.core/doall
+clojure.core/dorun
+clojure.core/for
+clojure.core/dotimes
+clojure.core/run!
+clj꞉aoc2023.day-2.trebuchet꞉> 
+;; = doseq - Example 1 = 
+
+;; Multiplies every x by every y.
+
+(doseq [x [-1 0 1]
+        y [1  2 3]] 
+  (prn (* x y)))
+-1 ; x -1 y 1
+-2 ; x -1 y 2
+-3 ; x -1 y 3
+0  ; x 0  y 1
+0  ; x 0  y 2
+0  ; x 0  y 3
+1  ; x 1  y 1
+2  ; x 1  y 2
+3  ; x 1  y 3
+nil
+
+;; Notice that y is iterated over for every x. x could be seen as the 'outer' loop
+;; See also:
+clojure.core/doall
+clojure.core/dorun
+clojure.core/for
+clojure.core/dotimes
+clojure.core/run!
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error macroexpanding doseq at (src/aoc2023/day_2/trebuchet.clj:36:1).
+; doseq requires an even number of forms in binding vector in aoc2023.day-2.trebuchet:36
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six
+three
+two
+seven
+zero
+five
+eight
+one
+nine
+four
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(x i s)
+(e e r h t)
+(o w t)
+(n e v e s)
+(o r e z)
+(e v i f)
+(t h g i e)
+(e n o)
+(e n i n)
+(r u o f)
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(\x \i \s)
+(\e \e \r \h \t)
+(\o \w \t)
+(\n \e \v \e \s)
+(\o \r \e \z)
+(\e \v \i \f)
+(\t \h \g \i \e)
+(\e \n \o)
+(\e \n \i \n)
+(\r \u \o \f)
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+(x i s)
+(e e r h t)
+(o w t)
+(n e v e s)
+(o r e z)
+(e v i f)
+(t h g i e)
+(e n o)
+(e n i n)
+(r u o f)
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+clojure.lang.LazySeq@24401
+clojure.lang.LazySeq@773c0fd
+clojure.lang.LazySeq@223eb
+clojure.lang.LazySeq@7f2a32c
+clojure.lang.LazySeq@424559
+clojure.lang.LazySeq@3dc90f
+clojure.lang.LazySeq@848556e
+clojure.lang.LazySeq@1fd45
+clojure.lang.LazySeq@3dab0f
+clojure.lang.LazySeq@43aedb
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+xis
+eerht
+owt
+neves
+orez
+evif
+thgie
+eno
+enin
+ruof
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{xis 6}
+{eerht 3}
+{owt 2}
+{neves 7}
+{orez 0}
+{evif 5}
+{thgie 8}
+{eno 1}
+{enin 9}
+{ruof 4}
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{xis 6}
+{eerht 3}
+{owt 2}
+{neves 7}
+{orez 0}
+{evif 5}
+{thgie 8}
+{eno 1}
+{enin 9}
+{ruof 4}
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{xis 6}
+{eerht 3}
+{owt 2}
+{neves 7}
+{orez 0}
+{evif 5}
+{thgie 8}
+{eno 1}
+{enin 9}
+{ruof 4}
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day-2.trebuchet/eval8115 (form-init5491758528458447645.clj:33).
+; Don't know how to create ISeq from: clojure.core$println
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+{six 6, three 3, two 2, seven 7, zero 0, five 5, eight 8, one 1, nine 9, four 4}
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ArityException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ArityException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ArityException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (ArityException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; Wrong number of args (0) passed to: clojure.lang.PersistentArrayMap
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-map-rev
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{"six" "6", "three" "3", "two" "2", "seven" "7", "zero" "0", "five" "5", "eight" "8", "one" "1", "nine" "9", "four" "4"}
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:35).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{"six" "6", "three" "3", "two" "2", "seven" "7", "zero" "0", "five" "5", "eight" "8", "one" "1", "nine" "9", "four" "4"}
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8243 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8257 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-map
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8271 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8285 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8299 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8313 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+wadafuq
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8327 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8341 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+xis 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8355 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+xis 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8369 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{xis 6}
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8383 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{xis 6}
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8397 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-map
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{xis 6}
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/eval8411 (form-init5491758528458447645.clj:34).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+Found key :one with value two
+Found key :three with value four
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day-2.trebuchet/eval8439 (form-init5491758528458447645.clj:41).
+; Don't know how to create ISeq from: clojure.lang.Keyword
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day-2.trebuchet/eval8453 (form-init5491758528458447645.clj:41).
+; Don't know how to create ISeq from: clojure.lang.Keyword
+clj꞉aoc2023.day-2.trebuchet꞉> 
+Found key with value  two
+Found key with value  four
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Execution error (IllegalArgumentException) at aoc2023.day-2.trebuchet/eval8481 (form-init5491758528458447645.clj:41).
+; Don't know how to create ISeq from: clojure.lang.Keyword
+clj꞉aoc2023.day-2.trebuchet꞉> 
+Found key eno: with value  two
+Found key eerht: with value  four
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+Found key xis with value  6
+Found key eerht with value  3
+Found key owt with value  2
+Found key neves with value  7
+Found key orez with value  0
+Found key evif with value  5
+Found key thgie with value  8
+Found key eno with value  1
+Found key enin with value  9
+Found key ruof with value  4
+nil
+clj꞉aoc2023.day-2.trebuchet꞉> 
+Found key xis with value  6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:48).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+six 6
+; Execution error (NullPointerException) at aoc2023.day-2.trebuchet/fn (form-init5491758528458447645.clj:48).
+; null
+clj꞉aoc2023.day-2.trebuchet꞉> 
+six 6
+three 3
+two 2
+seven 7
+zero 0
+five 5
+eight 8
+one 1
+nine 9
+four 4
+#'aoc2023.day-2.trebuchet/digits-map-rev
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/digits-map-rev
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{"six" "6", "three" "3", "two" "2", "seven" "7", "zero" "0", "five" "5", "eight" "8", "one" "1", "nine" "9", "four" "4"}
+clj꞉aoc2023.day-2.trebuchet꞉> 
+; Syntax error compiling at (src/aoc2023/day_2/trebuchet.clj:48:29).
+; Unable to resolve symbol: tmp-map in this context
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/reverse-digits-map
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{"orez" "0", "neves" "7", "owt" "2", "xis" "6", "ruof" "4", "thgie" "8", "evif" "5", "enin" "9", "eerht" "3", "eno" "1"}
+clj꞉aoc2023.day-2.trebuchet꞉> 
+#'aoc2023.day-2.trebuchet/full-digits-map
+clj꞉aoc2023.day-2.trebuchet꞉> 
+{"orez" "0",
+ "six" "6",
+ "neves" "7",
+ "owt" "2",
+ "three" "3",
+ "two" "2",
+ "xis" "6",
+ "ruof" "4",
+ "thgie" "8",
+ "seven" "7",
+ "zero" "0",
+ "evif" "5",
+ "enin" "9",
+ "eerht" "3",
+ "five" "5",
+ "eight" "8",
+ "one" "1",
+ "eno" "1",
+ "nine" "9",
+ "four" "4"}
+clj꞉aoc2023.day-2.trebuchet꞉> 

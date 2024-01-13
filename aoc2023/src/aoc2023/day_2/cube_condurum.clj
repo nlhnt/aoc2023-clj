@@ -1,4 +1,4 @@
-(ns aoc2023.day-2.trebuchet
+(ns aoc2023.day-2.cube-condurum
   (:require [clojure.java.io :as io])
   (:require [clojure.string :as s]))
 
